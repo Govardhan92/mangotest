@@ -12,3 +12,13 @@ d = {
 db1 = client['mangotest']
 cell = db1['test']
 cell.insert_one(d )
+d = {
+    "name" : "Govardhan",
+    "email" : "govu@92",
+    "surname" : "govu"
+
+}
+
+db1 = client['mangotest']
+cell = db1['test']
+cell.insert_one(d )
